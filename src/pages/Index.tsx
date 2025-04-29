@@ -5,7 +5,6 @@ import { cn } from "@/lib/utils";
 import {
   ChevronDown,
   Code,
-  Component,
   ExternalLink,
   Palette,
   Sparkles,
@@ -56,9 +55,7 @@ const Index = () => {
       <header className="bg-white/80 dark:bg-neutral-900/80 backdrop-blur-md border-b border-neutral-200/50 dark:border-neutral-800/50 sticky top-0 z-10">
         <div className="container mx-auto px-6 py-5 flex justify-between items-center">
           <div className="flex items-center gap-3">
-            <div className="h-10 w-10 bg-gradient-to-br from-primary to-primary-600 rounded-xl flex items-center justify-center text-white shadow-lg">
-              <Component size={24} />
-            </div>
+            
             <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-primary-600 bg-clip-text text-transparent">
               Design System
             </h1>
